@@ -1,0 +1,14 @@
+@import "assets/theme";
+@import "~bootstrap";
+@import "assets/theme/imports";
+
+html {
+  height: 100%;
+  body {
+    #root {
+      section {
+        min-height: 100vh;
+      }
+    }
+  }
+}

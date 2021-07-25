@@ -1,0 +1,32 @@
+@mixin colors($property) {
+  &-coral {
+    #{$property}: $coral;
+  }
+  &-gray-coral {
+    #{$property}: $gray-coral;
+  }
+  &-brown-coral {
+    #{$property}: $brown-coral;
+  }
+  &-silver-chalice {
+    #{$property}: $silver-chalice;
+  }
+  &-opium {
+    #{$property}: $opium;
+  }
+  &-slate-gray {
+    #{$property}: $slate-gray;
+  }
+}
+
+.color {
+  @include colors(color);
+}
+
+.bg-color {
+  @include colors(background-color);
+}
+
+.border-color {
+  @include colors(border-color);
+}

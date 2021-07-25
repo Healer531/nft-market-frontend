@@ -1,0 +1,19 @@
+@import "../../../assets/theme";
+
+div {
+  i {
+    color: white;
+  }
+  text-decoration: none !important;
+
+  i:hover {
+    color: $coral !important;
+    cursor: pointer;
+  }
+}
+
+@media (min-width: 1310px) {
+  .container {
+    max-width: 1310px !important;
+  }
+}

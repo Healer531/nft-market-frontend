@@ -1,0 +1,14 @@
+@import "../../assets/theme";
+
+a {
+  span {
+    color: white;
+  }
+  text-decoration: none !important;
+
+  &:hover {
+    span {
+      color: $coral !important;
+    }
+  }
+}

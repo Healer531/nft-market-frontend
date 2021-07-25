@@ -1,0 +1,1 @@
+export const ethUnit = 1000000000000000000;
